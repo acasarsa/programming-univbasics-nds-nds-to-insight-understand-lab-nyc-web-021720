@@ -42,5 +42,3 @@ def print_first_directors_movie_titles
   end
 
 end
-
-# ddb[0][:movies][0]

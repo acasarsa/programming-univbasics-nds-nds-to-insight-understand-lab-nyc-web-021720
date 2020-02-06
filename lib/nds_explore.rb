@@ -33,11 +33,11 @@ end
 def print_first_directors_movie_titles
   ddb = directors_database
   # movie_index = 0
-  spielburg_movies = ddb[0][:movies]
+  spielburg_movies = ddb[0][:movies][0]
   movie_index = 0
 
   while movie_index < spielburg_movies.length do
-    puts spielburg_movies[0][:title]
+    puts spielburg_movies[:title]
     movie_index += 1
   end
 

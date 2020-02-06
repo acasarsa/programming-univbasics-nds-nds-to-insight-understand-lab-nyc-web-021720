@@ -37,7 +37,7 @@ def print_first_directors_movie_titles
   movie_index = 0
 
   while movie_index < spielburg_movies.length do
-    puts spielburg_movies[0][:title]
+    puts spielburg_movies[movie_index][:title]
     movie_index += 1
   end
 
